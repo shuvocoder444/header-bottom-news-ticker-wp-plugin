@@ -1,0 +1,109 @@
+.hbnt-wrapper {
+    width: 100%;
+    background: #fff;
+    border-bottom: 2px solid #f1f1f1;
+}
+
+.hbnt-ticker {
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 35px;
+    overflow: hidden;
+}
+
+.hbnt-label {
+    background: #000000;
+    color: #fff;
+    padding: 0 25px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 14px;
+    white-space: nowrap;
+    z-index: 10;
+    flex-shrink: 0;
+}
+
+.hbnt-container {
+    flex: 1;
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+}
+
+.hbnt-list {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    white-space: nowrap;
+    height: 100%;
+    will-change: transform;
+}
+
+.hbnt-list li {
+    display: flex;
+    align-items: center;
+    padding-right: 50px;
+    height: 100%;
+}
+
+.hbnt-list .hbnt-icon {
+    margin-right: 8px;
+    color: #e6192e;
+    font-size: 12px;
+}
+
+.hbnt-list a {
+    color: #333;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.hbnt-list a:hover {
+    color: #e6192e;
+}
+
+
+.hbnt-list .hbnt-icon {
+    margin-right: 8px;
+    font-size: 20px;
+}
+
+.hbnt-ticker {
+    height: 35px;
+
+}
+
+.hbnt-label {
+    background: #000000;
+	font-size: 14px;
+
+}
+
+
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .hbnt-ticker {
+        height: 35px;
+    }
+    
+    .hbnt-label {
+        padding: 0 15px;
+        font-size: 14px;
+    }
+    
+    .hbnt-list a {
+        font-size: 14px;
+    }
+    
+    .hbnt-list li {
+        padding-right: 40px;
+    }
+}
